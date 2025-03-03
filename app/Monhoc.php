@@ -1,0 +1,23 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Monhoc extends Model
+{
+    protected $table='monhocs';
+
+    public function lops()
+    {
+        return $this->belongsToMany(\App\Lop::class,'monhoc_lop','monhoc_id','lop_id');
+    }
+    public function giangviens()
+    {
+        return $this->belongsTo(\App\Giangvien::class,'giangvien_id','id');
+    }
+    public function diems()
+    {
+        return $this->hasMany(\App\Diem::class,'monhoc_id','id');
+    }
+}
