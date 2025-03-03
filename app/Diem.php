@@ -10,11 +10,11 @@ class Diem extends Model
 
     public function sinhviens()
     {
-        return $this->belongsTo('App\Sinhvien', 'sinhvien_id', 'id');
+        return $this->belongsTo(\App\Sinhvien::class, 'sinhvien_id', 'id');
     }
 
     public function monhocs()
     {
-        return $this->belongsTo('App\Monhoc', 'monhoc_id', 'id');
+        return $this->belongsTo(\App\Monhoc::class, 'monhoc_id', 'id');
     }
 }
