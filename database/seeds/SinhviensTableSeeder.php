@@ -11,7 +11,11 @@ class SinhviensTableSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
         \App\Sinhvien::insert([
+=======
+        \App\Models\Sinhvien::insert([
+>>>>>>> afee29fe70c6a1b5461203cdfb5d9daf4586f5ed
             ['masv' => '16ĐC002', 'hosv' => 'Lê Hoàng', 'tensv' => 'Đạo', 'gioitinh' => '1', 'ngaysinh' => '2017-12-11', 'quequan' => '...', 'lop_id' => '1'],
             ['masv' => '16ĐC003', 'hosv' => 'Hoàng Lê Kiên', 'tensv' => 'Cường', 'gioitinh' => '1', 'ngaysinh' => '2017-12-11', 'quequan' => '...', 'lop_id' => '1'],
             ['masv' => '16ĐC004', 'hosv' => 'Phạm Ninh', 'tensv' => 'Dung', 'gioitinh' => '0', 'ngaysinh' => '2017-12-11', 'quequan' => '...', 'lop_id' => '1'],

@@ -2,9 +2,15 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Diem;
 use App\Monhoc;
 use App\Sinhvien;
+=======
+use App\Models\Diem;
+use App\Models\Monhoc;
+use App\Models\Sinhvien;
+>>>>>>> afee29fe70c6a1b5461203cdfb5d9daf4586f5ed
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 

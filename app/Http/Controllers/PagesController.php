@@ -2,10 +2,17 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Giangvien;
 use App\Lop;
 use App\Monhoc;
 use App\Sinhvien;
+=======
+use App\Models\Giangvien;
+use App\Models\Lop;
+use App\Models\Monhoc;
+use App\Models\Sinhvien;
+>>>>>>> afee29fe70c6a1b5461203cdfb5d9daf4586f5ed
 
 class PagesController extends Controller
 {
