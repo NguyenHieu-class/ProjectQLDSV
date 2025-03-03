@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Sinhvien;
+use App\Models\Sinhvien;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 

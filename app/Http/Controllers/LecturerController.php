@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Giangvien;
+use App\Models\Giangvien;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

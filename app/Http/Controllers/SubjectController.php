@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Monhoc;
-use App\User;
+use App\Models\Monhoc;
+use App\Models\User;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

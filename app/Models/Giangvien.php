@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,6 +10,6 @@ class Giangvien extends Model
 
     public function monhocs()
     {
-        return $this->hasMany(\App\Monhoc::class, 'giangvien_id', 'id');
+        return $this->hasMany(\App\Models\Monhoc::class, 'giangvien_id', 'id');
     }
 }

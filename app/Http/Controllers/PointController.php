@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Diem;
-use App\Lop;
+use App\Models\Diem;
+use App\Models\Lop;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

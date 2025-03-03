@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,6 +10,6 @@ class Khoa extends Model
 
     public function lops()
     {
-        return $this->hasMany(\App\Lop::class, 'khoa_id', 'id');
+        return $this->hasMany(\App\Models\Lop::class, 'khoa_id', 'id');
     }
 }
