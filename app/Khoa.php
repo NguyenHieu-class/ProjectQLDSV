@@ -10,6 +10,10 @@ class Khoa extends Model
 
     public function lops()
     {
+<<<<<<< HEAD
         return $this->hasMany('App\Lop', 'khoa_id', 'id');
+=======
+        return $this->hasMany(\App\Lop::class,'khoa_id','id');
+>>>>>>> develop
     }
 }
