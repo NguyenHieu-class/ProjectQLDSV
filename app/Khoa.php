@@ -6,10 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Khoa extends Model
 {
-    protected $table='khoas';
+    protected $table = 'khoas';
 
     public function lops()
     {
+<<<<<<< HEAD
+        return $this->hasMany('App\Lop', 'khoa_id', 'id');
+=======
         return $this->hasMany(\App\Lop::class,'khoa_id','id');
+>>>>>>> develop
     }
 }

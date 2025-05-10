@@ -11,7 +11,11 @@ class MonhocsTableSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< HEAD
+        \App\Monhoc::insert([
+=======
         \App\Models\Monhoc::insert([
+>>>>>>> afee29fe70c6a1b5461203cdfb5d9daf4586f5ed
             ['mamon' => 'ĐT5607', 'tenmon' => 'Kỹ năng mềm', 'sotinchi' => 2, 'sotiet' => 30],
             ['mamon' => 'ĐT5502', 'tenmon' => 'Đường lối cách mạng của ĐCS VN', 'sotinchi' => 3, 'sotiet' => 45],
             ['mamon' => 'ĐT1302', 'tenmon' => 'Tiếng Anh cơ bản 2', 'sotinchi' => 3, 'sotiet' => 45],

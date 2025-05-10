@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
+use App\Sinhvien;
+=======
 use App\Models\Sinhvien;
+>>>>>>> afee29fe70c6a1b5461203cdfb5d9daf4586f5ed
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
